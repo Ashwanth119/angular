@@ -1,0 +1,13 @@
+.home{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+
+    &-userData{
+        width:25%;
+        height:200px;
+        align-content: center;
+        text-align: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.348);
+    }
+}

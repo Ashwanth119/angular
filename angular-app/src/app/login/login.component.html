@@ -1,0 +1,25 @@
+<div>
+    <form (ngSubmit)="onLogin()" [formGroup]="reactiveForm">
+      <ng-container>
+        User Name:
+        <input
+          type="text"
+          name="userName"
+          placeholder="Enter userName"
+          formControlName="userName"
+        />
+        <br />
+        <br />
+        password:
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter password"
+          formControlName="password"
+        />
+        <br />
+        <br />
+      </ng-container>
+      <button type="submit">Login</button>
+    </form>
+  </div>
